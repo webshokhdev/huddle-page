@@ -1,0 +1,30 @@
+.main {
+    margin-bottom: 344px;
+}
+.section__content {
+    display: flex;
+    align-items: center;
+    height: 440px;
+    width: 1232px;
+    justify-content: space-around;
+    margin-top: 161px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+}
+
+.section__content__description {
+    width: 488px;
+}
+
+.section__content__title {
+    color: $dark-green-color;
+    margin-bottom: 16px;
+}
+
+.section__content__text {
+    color: $silver-color;
+    line-height: 2.7rem;
+}
+
+.section__content__image {}

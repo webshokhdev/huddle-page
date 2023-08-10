@@ -1,0 +1,15 @@
+@mixin fontSetting ($ff, $c, $lh, $fw) {
+    font-family: $ff;
+    color: $c;
+    line-height: $lh;
+    font-weight: $fw;
+}
+
+@mixin button($pt, $pb, $pl, $pr, $w, $mw) {
+    padding-top: $pt;
+    padding-bottom: $pb;
+    padding-left: $pl;
+    padding-right: $pr;
+    width: $w;
+    max-width: $mw;
+}

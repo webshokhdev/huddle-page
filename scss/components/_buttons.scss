@@ -1,0 +1,35 @@
+.header__btn {
+    @include button(1.3rem, 1.5rem, 10px, 10px, 100%, 200px);
+    background-color: $white-color;
+    border: 0;
+    text-align: center;
+    border-radius: 2.4rem;
+    font-weight: 700;
+    color: $dark-green-color;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.hero__btn {
+    @include button(1.7rem, 2rem, 10px, 10px, 100%, 300px);
+    background-color: $pink-color;
+    text-align: center;
+    border-radius: 2.4rem;
+    font-weight: 700;
+    color: $white-color;
+
+}
+
+.features__btn {
+    @include button(2.5rem, 2.5rem, 10px, 10px, 100%, 420px);
+    background-color: $pink-color;
+    text-align: center;
+    border-radius: 4rem;
+    font-weight: 700;
+    transition: .3s;
+    color: $white-color;
+}
+.features__btn:hover {
+    background-color: #FF9ADB;
+
+}
